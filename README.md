@@ -1,90 +1,142 @@
-# readme-generator
+# README Generator
 
-
-## What the app is for
-
-## How to use the app
-
-## How to install it
-
-## How to report issues
-
-## How to make contributions
-
-
-## User Story
-AS A coding boot camp student
-
-I WANT to take a timed quiz on coding fundamentals that stores high scores
-
-SO THAT I can gauge my progress compared to my peers
-
-
-## Acceptance Criteria: 
-GIVEN a command-line application that accepts user input
-
-1. WHEN I am prompted for information about my application repository 
-    - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-2. WHEN I enter my project title 
-    - THEN this is displayed as the title of the README
-3. WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions 
-    - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-4. WHEN I choose a license for my application from a list of options 
-    - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-5. WHEN I enter my GitHub username 
-    - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-6. WHEN I enter my email address 
-    - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-7. WHEN I click on the links in the Table of Contents
-    - THEN I am taken to the corresponding section of the README
-
-## Name
-
+#### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Deployed Application
-[Deployed Code (click here)](https://kimberlyrobinson11122.github.io/REPO NAME/)
+[Deployed Code (click here)]
 
-## Description
+Example of Deployed link: https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/deployments
 
-
-## Solved
-1.  
-
-2. 
-
-3. 
-
+Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/REPO NAME/)
 
 ## Images
+
 Screenshot of the first build:
-![screen shot of initial build](./assets/)
+
+placeholder ![screen shot of initial build](./assets/)
+A sized image: ![Alt](img.jpg =60x50)
 
 Screenshot of feature:
-![screen shot of feature](./assets/)
 
-## Credits
-The project was started from scratch and developed iteratively or with starter code (Must edit this section)
+placeholder ![screen shot of feature](./assets/)
+A sized image: ![Alt](img.jpg =60x50)
 
+## Table of Contents
+
+PROJECT OVERVIEW
+
+- [Project Title](#project-title-top)
+
+- [Deployed Application](#deployed-application)
+
+- [Screenshots](#images)
+
+- [Description](#description)
+
+- [Installation](#installation)
+
+- [Usage](#usage)
+
+---------------------
+
+DEVELOPMENT ODYSSEY
+
+- [Challenges](#challenges)
+
+- [Test](#credits)
+
+- [Contributions](#contributions)
+
+- [Questions or Issues](#questions-issues)
+
+- [Acceptance Criteria](#acceptance-criteria)
+
+---------------------
+
+ADDITIONAL INFORMATION
+
+- [Credits](#credits)
+
+- [License](#license)
+
+- [Badges](#badges)
+
+- [Authors and acknowledgment](#authors-and-acknowledgment)
+
+- [Extra comments for sustainability team](#extra-comments-for-sustainability-team)
+
+- [Future Features](#future-features)
+
+
+## Description
+As a developer, I want a README generator, so that I can quickly create README for any of my new projects
+
+
+## Installation
+Do this, install that
+
+
+## Usage
+Use this all the time
+
+
+## Challenges
+
+1. Item 1
+2. Item 2
+3. Item 3
 
 ## Test
-Consistent testing of links throughout each iteration
+Test, test, and more tests
 
-
-## Authors and acknowledgment
-Appreciation to the Instructor, TAs, Tutuors at EdX Berkeley
-
-
-## Support
-If you need help with anything please email me at kimberly.robinson1122@gmail.com.
-
-
-## Project status
-This build is complete and to project specification. 
-
+Consistent testing throughout each iteration prior to deployment. 
 
 ## Contributions
- This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval. 
+Contribute a lot of stuff
 
+This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
+
+## Questions or Issues
+Please see my GitHub profile here: https://github.com/kimberlyrobinson1122. 
+
+If you have questions, find any issues, or need help with anything please email me at me@me.com.
+
+
+## Acceptance Criteria
+**Optional section** - this is an extra layer for those who have working list of criteria to be met, this section is a working section and is to be deleted when you deploy your first build. ==(Must edit this section)==
+
+- [ ] Incomplete item  (use this to create a checklist - [])
+- [x] Complete item (use this to mark items complete on your checklist- [x])
+
+-----------
+
+- [x] Finalize the ReadMe Template
+
+- [ ] Screenify and record the readme being created
+
+- [ ] Open the terminal ---> start from a terminal
+
+- [ ] Create sample ReadMe then commit
+
+- [ ] Show the readme
+
+- [ ] Include packages needed for this application + gitignore (be sure those belong there)
+
+
+## Credits
+The project was started from scratch and developed iteratively or with starter code. ==(Must edit this section)==
+
+## License
+This application/project is covered under the MIT License
+
+## Authors and acknowledgment
+Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.
+
+## Project status
+This initial build is complete and was built to project specification.
 
 ## Extra comments for sustainability team
+Your extra comments here.
 
+## Future Features
+Future features commented here.

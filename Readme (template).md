@@ -1,122 +1,127 @@
-# <Your-Project-Title>
+# {{pName}}
 
-## Title
-(added when enter #project title, title is displayed here)
-
-## Badge for the Readme license goes at the top
+#### {{pBadge}} 
 
 ## Deployed Application
-[Deployed Code (click here)](https://kimberlyrobinson11122.github.io/REPO NAME/)
+[Deployed Code (click here)]
+
+Example of Deployed link: https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/deployments
+
+Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/REPO NAME/)
 
 ## Images
+
 Screenshot of the first build:
-![screen shot of initial build](./assets/)
+
+placeholder ![screen shot of initial build](./assets/)
+A sized image: ![Alt](img.jpg =60x50)
 
 Screenshot of feature:
-![screen shot of feature](./assets/)
 
+placeholder ![screen shot of feature](./assets/)
+A sized image: ![Alt](img.jpg =60x50)
 
 ## Table of Contents
+
 PROJECT OVERVIEW
+
 - [Project Title](#project-title-top)
+
 - [Deployed Application](#deployed-application)
+
 - [Screenshots](#images)
+
 - [Description](#description)
+
 - [Installation](#installation)
+
 - [Usage](#usage)
+
 ---------------------
+
 DEVELOPMENT ODYSSEY
+
 - [Challenges](#challenges)
+
 - [Test](#credits)
+
 - [Contributions](#contributions)
+
 - [Questions or Issues](#questions-issues)
-- [Acceptance Criteria (optional)](#ac)
+
+- [Acceptance Criteria](#acceptance-criteria)
+
 ---------------------
+
 ADDITIONAL INFORMATION
+
 - [Credits](#credits)
+
 - [License](#license)
+
 - [Badges](#badges)
-- [Authors and acknowledgment](#authors+acknowledgement)
+
+- [Authors and acknowledgment](#authors-and-acknowledgment)
+
+- [Extra comments for sustainability team](#extra-comments-for-sustainability-team)
+
 - [Future Features](#future-features)
-- [Extra comments for sustainability team](#sustainability)
 
 
 ## Description
-What is the app for? What was my motivation for this application? Why did you build this projet? What problem did it solve? What did you learn? 
-(added when enter #project title)
+{{pDescription}}
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-User Story???
 
 ## Installation
-How to install it
-(added when enter #project title)
+{{pInstall}}
 
 
 ## Usage
-(added when enter #project title)
-
-
+{{pUsage}}
 
 
 ## Challenges
-1.  
 
-2. 
-
-3. 
+1. Item 1
+2. Item 2
+3. Item 3
 
 ## Test
-(added when enter #project title)
-Consistent testing of links throughout each iteration
+{{pTest}}
 
+Consistent testing throughout each iteration prior to deployment. 
 
 ## Contributions
-(added when enter #project title)
- This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval. 
+{{pContribution}}
 
+This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
 
 ## Questions or Issues
-ENTER GitHub username ADDED a link to my GitHub profile, 
-ENTER my email address it's ADDED to this section
+Please see my GitHub profile here: https://github.com/{{githubUsername}}. 
 
-If you need help with anything please email me at kimberly.robinson1122@gmail.com.
-
-How do we report issues
+If you have questions, find any issues, or need help with anything please email me at {{pEmail}}.
 
 
 ## Acceptance Criteria
+**Optional section** - this is an extra layer for those who have working list of criteria to be met, this section is a working section and is to be deleted when you deploy your first build. ==(Must edit this section)==
 
-
+- [ ] Incomplete item  (use this to create a checklist - [])
+- [x] Complete item (use this to mark items complete on your checklist- [x])
 
 ## Credits
-The project was started from scratch and developed iteratively or with starter code (Must edit this section)
-
+The project was started from scratch and developed iteratively or with starter code. ==(Must edit this section)==
 
 ## License
-LIST - choice of license for my application from a list of options 
-    - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
+This application/project is covered under the {{pLicensing}}
 
 ## Authors and acknowledgment
-Appreciation to the Instructor, TAs, Tutuors at EdX Berkeley
-
-
-
+Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.
 
 ## Project status
-This build is complete and to project specification. 
-
+This initial build is complete and was built to project specification.
 
 ## Extra comments for sustainability team
-comments
+Your extra comments here.
 
 ## Future Features
-comments
-
+Future features commented here.

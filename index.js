@@ -1,15 +1,3 @@
-// TODO: Unique naming 
-
-// TODO: Create sample ReadMe then commit
-
-// TODO: Open the terminal ---> start from a terminal
-
-// TODO: Show the readme
-
-// TODO: Include packages needed for this application + gitignore (be sure those belong there)
-
-// TODO: Finalize the ReadMe Template
-
 const inquirer = require("inquirer");
 const fs = require("fs");
 
@@ -88,7 +76,7 @@ inquirer.prompt([
             badgeEl = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
         };
         
-    let template = fs.readFileSync("README.md", "utf-8");
+    let template = fs.readFileSync("Readme (template).md", "utf-8");
 
     console.log(template);
 
