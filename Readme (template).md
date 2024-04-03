@@ -7,7 +7,7 @@
 
 Example of Deployed link: https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/deployments
 
-Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/REPO NAME/)
+Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/REPO-NAME)
 
 ## Images
 
@@ -112,7 +112,7 @@ If you have questions, find any issues, or need help with anything please email 
 The project was started from scratch and developed iteratively or with starter code. ==(Must edit this section)==
 
 ## License
-This application/project is covered under the {{pLicensing}}
+This application/project is covered under the {{pLicensing}}.
 
 ## Authors and acknowledgment
 Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.

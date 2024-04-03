@@ -1,8 +1,11 @@
+//readme generator
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+//allows the user to create the filename when executing
 const filename = process.argv[2];
 
+//user questions/prompts
 inquirer.prompt([
     {
         type: 'input',
@@ -15,10 +18,10 @@ inquirer.prompt([
         message: 'What is your project description?',
         name: 'pDescription',
     }, 
-
+    //Licensing options
     {
         type: 'list',
-        choices: ['MIT License', 'Apache 2.0', 'ISC License', 'GNU AGPLv3', 'GNU Mozilla Public License 2.0', 'The Unlicense'],
+        choices: ['MIT License', 'Apache 2.0', 'ISC License', 'GNU AGPLv3', 'GNU Mozilla Public License 2.0', 'Unlicense'],
         message: 'Which license would you like to use for application/project?',
         name: 'pLicensing',
     },
@@ -61,6 +64,7 @@ inquirer.prompt([
 ]).then((data) => {
     console.log(data);
 
+    //allows the badges to show up at the top of the readme file that is generated
     let badgeEl
         if (data.pLicensing === 'MIT License') {
             badgeEl = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
@@ -72,14 +76,16 @@ inquirer.prompt([
             badgeEl = '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)'
         } else if (data.pLicensing === 'GNU Mozilla Public License 2.0') {
             badgeEl = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
-        } else if (data.pLicensing === 'The Unlicense') {
-            badgeEl = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+        } else if (data.pLicensing === 'Unlicense') {
+            badgeEl = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
         };
-        
+     
+    //uses this template as the guide for generating the new file, this was chosen to provide flexibility with the template if requirements or spec changed    
     let template = fs.readFileSync("Readme (template).md", "utf-8");
 
     console.log(template);
 
+    //this allows the user input to be added to the generated file
     template = template.replace("{{pName}}", data.pName);
     template = template.replace("{{pDescription}}", data.pDescription);
     template = template.replace("{{pBadge}}", badgeEl);
@@ -91,6 +97,7 @@ inquirer.prompt([
     template = template.replace("{{githubUsername}}", data.githubUsername);
     template = template.replace("{{pEmail}}", data.pEmail);
 
+    //this writes the file - output
     fs.writeFileSync(filename, template, "utf-8");
 
 });
