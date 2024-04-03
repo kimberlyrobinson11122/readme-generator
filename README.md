@@ -82,9 +82,9 @@ Use this all the time
 
 ## Challenges
 
-1. Item 1
-2. Item 2
-3. Item 3
+1. Multiple ways of executing this, figured out the best way that works with most projects
+2. Resolved getting the license badge to show up appropriately after user selected license
+3. Fixed the naming, file cleanup, the readme template final update prior to release
 
 ## Test
 Test, test, and more tests
@@ -112,15 +112,17 @@ If you have questions, find any issues, or need help with anything please email 
 
 - [x] Finalize the ReadMe Template
 
+- [x] Gitignore reviewed
+
 - [ ] Screenify and record the readme being created
 
 - [ ] Open the terminal ---> start from a terminal
 
 - [ ] Create sample ReadMe then commit
 
-- [ ] Show the readme
+- [ ] Show the sample readme
 
-- [ ] Include packages needed for this application + gitignore (be sure those belong there)
+- [ ] Include packages needed for this application
 
 
 ## Credits
@@ -139,4 +141,4 @@ This initial build is complete and was built to project specification.
 Your extra comments here.
 
 ## Future Features
-Future features commented here.
+Have multiple ways to build the README.md file
