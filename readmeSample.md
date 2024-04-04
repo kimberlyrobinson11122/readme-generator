@@ -97,7 +97,7 @@ contribution tbd
 This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
 
 ## Questions or Issues
-Please see my GitHub profile here: https://github.com/kimberlyrobinson1122. 
+Please see my GitHub profile here: https://github.com/kimberlyrobinson11122. 
 
 If you have questions, find any issues, or need help with anything please email me at me@memec.omm.
 
