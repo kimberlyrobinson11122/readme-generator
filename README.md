@@ -2,10 +2,12 @@
 
 #### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-## Deployed Application
-This application will be used with node.js
+## Application
+This application is intended for use alongside its associated index.js file and the command line interface using Node.js. As per the specified acceptance criteria, deployment is not required. For a demonstration of the typical user flow, please refer to the walkthrough video provided below.
 
-Repo is located here https://github.com/kimberlyrobinson11122/readme-generator
+[Readme Generator - GitHub Repository Link](https://github.com/kimberlyrobinson11122/readme-generator)
+
+[Readme Generator - User Flow/Walkthrough Video Link](https://drive.google.com/file/d/1VILGl0B3a1122gd4VPx4CITtOe0BDlZV/view)
 
 ## Images
 
@@ -15,15 +17,19 @@ Screenshot of the Index.js file with the v1 code:
 
 Screenshot of Readme Template:
 
-![Alt - screen shot of Readme Template](./assets/images/Index-js%20code%20v1.jpg)
+![Alt - screen shot of Readme Template](./assets/images/readme%20template%20v1.jpg)
 
-## Table of Contents
+Screenshot of Sample Readme.md file created in the video walkthrough:
+
+![Alt - screen shot of Sample Readme.md file created in video](./assets/images/Sample%20Readme.jpg)
+
+# Table of Contents for Readme Generator
 
 PROJECT OVERVIEW
 
 - [Project Title](#project-title-top)
 
-- [Deployed Application](#deployed-application)
+- [Application](#application)
 
 - [Screenshots](#images)
 
@@ -55,8 +61,6 @@ ADDITIONAL INFORMATION
 
 - [License](#license)
 
-- [Badges](#badges)
-
 - [Authors and acknowledgment](#authors-and-acknowledgment)
 
 - [Extra comments for sustainability team](#extra-comments-for-sustainability-team)
@@ -76,7 +80,7 @@ This readme generator will provide the file for your project, execute using the 
 Once executed using the command "node index.js" filename.md (filename is something that is decided by the user at the time of execution).
 
 ## Instructions
-1. Locate index.js File: Navigate to the index.js file in your project directory.
+1. Locate index.js File: Navigate to the index.js file in your project directory. (VS-Code and files required for running on your local machine)
 
 2. Open Integrated Terminal: Right-click on the index.js file and select the option to open it in an integrated terminal. This action will open a terminal window within your code editor.
 
@@ -101,7 +105,9 @@ Once executed using the command "node index.js" filename.md (filename is somethi
 ## Challenges
 
 1. Multiple ways of executing this, figured out the best way that works with most projects
+
 2. Resolved getting the license badge to show up appropriately after user selected license
+
 3. Fixed the naming, file cleanup, the readme template final update prior to release
 
 ## Test
@@ -111,39 +117,55 @@ Testing with instructor and TAs along with consistent testing throughout each it
 This is in a steady state until feature requests are submitted to the email address provided in "Questions or Issues" and will be reviewed/considered with owner approval.
 
 ## Questions or Issues
-Please see my GitHub profile here: https://github.com/kimberlyrobinson1122. 
+Please see my GitHub profile here: https://github.com/kimberlyrobinson1122 
 
-If you have questions, find any issues, or need help with anything please email me at kimberlyrobinson1212@.com.
+If you have questions, find any issues, or need help with anything please email me at me@me.com
 
 
 ## Acceptance Criteria
 
+- [x] As per the specifications, this application is not intended for deployment. Instead, we have **provided a walkthrough video** showcasing its functionality, accessible via the following link: [Readme Generator - User Flow/Walkthrough Video Link](https://drive.google.com/file/d/1VILGl0B3a1122gd4VPx4CITtOe0BDlZV/view)
+
+- [x] Command line application that accepts user input when prompted about application repository: passed testing with two TAs
+
+- [x] High quality **README.md** is generated with the title of the project and sections included at the minimum are Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions filled in with the information the user provided via previous prompts
+
+- [x] Title of project is the title of the readme
+
+- [x] Choose a license from a list of options, **badge** for that license is presented at the top of the readme file, and under license it explains which license the application is covered under
+
+- [x] When user enters their GitHub username, this is added to the Questions section with a link to my **GitHub profile**, when email is entered it also resides in the Questions section with addtional information on how to reach me
+
+- [x] When user click the **table of contents** links they are taken to the corresponding sections of the README
+
 - [x] Finalize the ReadMe Template
 
-- [x] Gitignore reviewed
+- [x] **Gitignore** created and reviewed, includes node_modules/, node modules, .DS_Store/
 
-- [x] Readme Sample generated using the application and commit to GitHub
+- [x] Repository contains **package.json**
 
-- [x] GitHub containing application code
+- [x] **Walkthrough video recorded and submitted**, typical user flow through the application from the command line, how a user would enter responses to all the prompts given, demonstrated a generated README that matches the user input and has function table of contents
 
-- [x] Walkthrough video recorded and submitted, shows how the user would invoke the application from the command line, how a user would enter responses to all the prompts given, walkthrough video must demonstrated a generated README that matches the user input and has function table of contents
+- [x] **Readme Sample generated** using the application and **commit to GitHub**
 
-- [x] Used the inquirer package
+- [x] GitHub containing **application code**
+
+- [x] Used the **inquirer package**
 
 ## Credits
-The project began with starter code developed iteratively.
+The project began with starter code developed iteratively
 
 ## License
-This application/project is covered under the MIT License.
+This application/project is covered under the MIT License
 
 ## Authors and acknowledgment
-Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.
+Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley
 
 ## Project status
-This initial build is complete and was built to project specification.
+This initial build is complete and was built to project specification
 
 ## Extra comments for sustainability team
-This is in a stable build state, other future features may be added. 
+This is in a stable build state, other future features may be added
 
 ## Future Features
 User is given multiple ways to generate the README.md file

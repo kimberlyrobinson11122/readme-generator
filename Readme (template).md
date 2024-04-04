@@ -59,9 +59,9 @@ ADDITIONAL INFORMATION
 
 - [License](#license)
 
-- [Badges](#badges)
-
 - [Authors and acknowledgment](#authors-and-acknowledgment)
+
+- [Project Status](#project-status)
 
 - [Extra comments for sustainability team](#extra-comments-for-sustainability-team)
 
@@ -97,15 +97,16 @@ Consistent testing throughout each iteration prior to deployment.
 This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
 
 ## Questions or Issues
-Please see my GitHub profile here: https://github.com/{{githubUsername}}. 
+If you have any questions or encounter any issues, please don't hesitate to contact me through either of the following methods:
 
-If you have questions, find any issues, or need help with anything please email me at {{pEmail}}.
+[GitHub Profile](https://github.com/{{githubUsername}})
 
+Email: {{pEmail}}
 
 ## Acceptance Criteria
 **Optional section** - this is an extra layer for those who have working list of criteria to be met, this section is a working section and is to be deleted when you deploy your first build. ==(Must edit this section)==
 
-- [ ] Incomplete item  (use this to create a checklist - [])
+- [ ] Incomplete item  (use this to create a checklist - [ ])
 - [x] Complete item (use this to mark items complete on your checklist- [x])
 
 ## Credits
@@ -117,7 +118,7 @@ This application/project is covered under the {{pLicensing}}.
 ## Authors and acknowledgment
 Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.
 
-## Project status
+## Project Status
 This initial build is complete and was built to project specification.
 
 ## Extra comments for sustainability team
