@@ -75,6 +75,28 @@ This readme generator will provide the file for your project, execute using the 
 ## Usage
 Once executed using the command "node index.js" filename.md (filename is something that is decided by the user at the time of execution).
 
+## Instructions
+1. Locate index.js File: Navigate to the index.js file in your project directory.
+
+2. Open Integrated Terminal: Right-click on the index.js file and select the option to open it in an integrated terminal. This action will open a terminal window within your code editor.
+
+3. Run Generator: In the terminal, input the command: **node index.js NewReadMe.md**
+
+    ![Alt - type this on the terminal line](./assets/images/filename%20to%20input.jpg)
+
+4. Press Enter to proceed. (The filename is specified at the beginning of the process)
+
+5. Answer Prompts: Respond to the prompts and provide the necessary information as prompted.
+
+6. Generate README: Upon completing the prompts, the generator will process your inputs and generate a README file named according to your specification (e.g., NewReadMe.md) in the same directory as index.js.
+
+7. Review and Edit: Take a moment to review the generated README file to ensure accuracy and organization. Make any required edits or additions.
+
+8. Save Changes: Save the README file along with any modifications you've made.
+
+9. Customize Filename: Replace "NewReadMe.md" with your preferred filename for the README file and relocate it to the appropriate location within your project.
+
+    *Congratulations! You've successfully utilized the README generator to create a comprehensive README file for your project.*
 
 ## Challenges
 

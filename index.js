@@ -1,4 +1,28 @@
 //readme generator
+
+    // Here are the short instructions for using your README generator:
+
+    // 1. Locate index.js File: Find the index.js file should be this file.
+
+    // 2. Open Integrated Terminal: Right-click on the index.js file and choose the option to open it in an integrated terminal. This action should open a terminal window within your code editor.
+
+    // 3. Run Generator: In the terminal, type the following command:
+
+            // node index.js NewReadMe.md
+
+    // 4. Then press Enter. 
+
+    // 5. Answer Prompts: Follow the prompts and answer the questions presented in the terminal. Provide the necessary information and make selections as required.
+
+    // 6. Generate README: After providing all the information, the generator will process your inputs and create a README file with the specified name (e.g., NewReadMe.md) in the same directory where the index.js file is located.
+
+    // 7. Review and Edit: Once the README file is generated, review it to ensure all the information is accurate and well-organized. Make any necessary edits or additions.
+
+    // 9. Save Changes: Save the README file and any changes you've made.
+
+    // Tada! That's it! You've successfully used the README generator to create a README file for your project.
+
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 
