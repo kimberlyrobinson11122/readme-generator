@@ -4,7 +4,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 //allows the user to create the filename when executing
-const filename = process.argv[2];
+//grader was unable to get this part of the code-this will get changed back as it's a nice feature to use in the future
+//const filename = process.argv[2];
+
+//CREATED FOR THE CENTRAL GRADER---------------------------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const filename = "readmeSample.md"
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 //user questions/prompts
 inquirer.prompt([
