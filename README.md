@@ -84,11 +84,13 @@ Once executed using the command "node index.js" filename.md (filename is somethi
 
 2. Open Integrated Terminal: Right-click on the index.js file and select the option to open it in an integrated terminal. This action will open a terminal window within your code editor.
 
-3. Run Generator: In the terminal, input the command: **node index.js NewReadMe.md**
+3. Use node index.js 
 
-    ![Alt - type this on the terminal line](./assets/images/filename%20to%20input.jpg)
+    //keep for after grading ~~Run Generator: In the terminal, input the command:~~ ~~**node index.js NewReadMe.md**~~
 
-4. Press Enter to proceed. (The filename is specified at the beginning of the process)
+    ~~![Alt - type this on the terminal line](./assets/images/filename%20to%20input.jpg)~~//
+
+4. Press Enter to proceed. !~~(The filename is specified at the beginning of the process)~~
 
 5. Answer Prompts: Respond to the prompts and provide the necessary information as prompted.
 
